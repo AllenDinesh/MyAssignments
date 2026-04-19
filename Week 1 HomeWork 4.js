@@ -1,17 +1,24 @@
-function launchBrowser() {
-    let studentscore = 30
-switch (studentscore) {
-    case 90:
+const studentscore = (mark) => {
+
+switch (true) {
+    case (mark>=90):
         console.log("A Grade");
         break;
-case 70:
+case (mark>=60):
     console.log("B Grade");
+    break;
+    case (mark>=35):
+        console.log("just pass");
+        break;
+     case (mark<35):
+        console.log("Fail");
+        break;
     
     default:
-        console.log("Failed");
+        console.log("Absent");
         
 }
 
 }
 
-launchBrowser();
+studentscore();

@@ -1,6 +1,6 @@
 
-const number =() =>{
-    let a=0
+const number =(a) =>{
+
     if(a>0){
 console.log("it is postive number");
 
@@ -13,6 +13,6 @@ console.log("it is postive number");
     }
 }
 
-number();
+number(2);
 
 
